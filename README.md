@@ -1,8 +1,8 @@
 # USB-to-UART Converter PCB Design using KiCad 9
 
-<div align="center">
+<div align="left">
 
-![PCB](Images/PCB_3D_Front.png)
+![PCB](images/front_image.png)
 
 **A compact two-layer USB-to-UART converter PCB designed from schematic capture to fabrication-ready manufacturing files using KiCad 9.**
 
