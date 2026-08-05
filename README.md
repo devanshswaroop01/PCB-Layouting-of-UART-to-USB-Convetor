@@ -7,7 +7,8 @@
 **A compact two-layer USB-to-UART converter PCB designed from schematic capture to fabrication-ready manufacturing files using KiCad 9.**
 
 ![KiCad](https://img.shields.io/badge/KiCad-9.0-blue) 
-![PCB](https://img.shields.io/badge/PCB-2_Layer-green)\
+![PCB](https://img.shields.io/badge/PCB-2_Layer-green)
+
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
