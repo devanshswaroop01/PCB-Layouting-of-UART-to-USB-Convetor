@@ -1,1 +1,179 @@
 
+USB-to-UART Converter PCB
+Gerber Files Report
+Fabrication Output Documentation
+
+Project Title: USB-to-UART Converter PCB
+
+Software: KiCad PCB Editor 9.0.7
+
+Report Scope: Gerber Fabrication Files Only
+
+1. Introduction
+
+This report documents the Gerber fabrication outputs generated for the USB-to-UART Converter PCB. Gerber files represent the final manufacturing data used by PCB fabrication facilities to produce the printed circuit board.
+
+The purpose of this report is to describe the generated fabrication layers and their respective roles in the PCB manufacturing process.
+
+2. Gerber Generation
+
+The PCB fabrication data was generated using:
+
+Parameter	Value
+EDA Software	KiCad PCB Editor
+Version	9.0.7
+Output Format	Gerber X2
+Coordinate Unit	Millimeter
+Coordinate Format	4.6
+PCB Type	Two Layer PCB
+
+The Gerber files constitute the graphical representation of each manufacturing layer.
+
+3. Generated Gerber Files
+
+The following Gerber files were generated for fabrication.
+
+File	Layer	Purpose
+USB_to_UART-F_Cu.gbr	Top Copper	Top electrical routing
+USB_to_UART-B_Cu.gbr	Bottom Copper	Bottom electrical routing
+USB_to_UART-F_Mask.gbr	Top Solder Mask	Defines exposed copper pads
+USB_to_UART-B_Mask.gbr	Bottom Solder Mask	Bottom solder mask openings
+USB_to_UART-F_Silkscreen.gbr	Top Silkscreen	Component legends and markings
+USB_to_UART-Edge_Cuts.gbr	Board Outline	Defines PCB profile
+4. Layer Description
+4.1 Top Copper Layer
+
+File
+
+USB_to_UART-F_Cu.gbr
+
+Purpose:
+
+Electrical routing on the top layer.
+Connection of electronic components.
+Signal and power distribution.
+4.2 Bottom Copper Layer
+
+File
+
+USB_to_UART-B_Cu.gbr
+
+Purpose:
+
+Bottom-side signal routing.
+Additional routing paths.
+Copper interconnections through plated vias.
+4.3 Top Solder Mask
+
+File
+
+USB_to_UART-F_Mask.gbr
+
+Purpose:
+
+Covers unwanted copper.
+Leaves component pads exposed.
+Prevents solder bridging.
+4.4 Bottom Solder Mask
+
+File
+
+USB_to_UART-B_Mask.gbr
+
+Purpose:
+
+Protects bottom copper.
+Defines solderable regions.
+Improves PCB reliability.
+4.5 Top Silkscreen
+
+File
+
+USB_to_UART-F_Silkscreen.gbr
+
+Purpose:
+
+Component identifiers.
+Reference designators.
+Connector labels.
+Board identification markings.
+4.6 Edge Cuts
+
+File
+
+USB_to_UART-Edge_Cuts.gbr
+
+Purpose:
+
+Defines PCB dimensions.
+Specifies final board profile.
+Guides CNC routing during fabrication.
+5. Gerber Layer Organization
+Top Silkscreen
+────────────────────────
+
+Top Solder Mask
+────────────────────────
+
+Top Copper
+────────────────────────
+
+PCB Substrate (FR-4)
+────────────────────────
+
+Bottom Copper
+────────────────────────
+
+Bottom Solder Mask
+6. Manufacturing Significance
+
+Each Gerber file contributes to a specific stage of PCB fabrication.
+
+Layer	Manufacturing Process
+Copper	Circuit pattern formation
+Solder Mask	Protective coating application
+Silkscreen	Legend printing
+Edge Cuts	Board routing and profiling
+
+Together, these files define the physical structure of the printed circuit board.
+
+7. Gerber Output Summary
+
+The generated fabrication outputs include:
+
+Top copper routing
+Bottom copper routing
+Top solder mask
+Bottom solder mask
+Top silkscreen
+PCB outline
+
+These files provide the essential graphical information required for fabrication of the two-layer PCB.
+
+8. File Organization
+
+The Gerber package may be organized as follows:
+
+Gerbers/
+
+USB_to_UART-F_Cu.gbr
+USB_to_UART-B_Cu.gbr
+USB_to_UART-F_Mask.gbr
+USB_to_UART-B_Mask.gbr
+USB_to_UART-F_Silkscreen.gbr
+USB_to_UART-Edge_Cuts.gbr
+9. Fabrication Readiness
+
+Based on the provided Gerber set:
+
+Top copper layer generated
+Bottom copper layer generated
+Solder mask layers generated
+Silkscreen layer generated
+Board outline generated
+
+These outputs form the primary manufacturing data package for PCB fabrication.
+
+10. Conclusion
+
+The Gerber fabrication package for the USB-to-UART Converter PCB was successfully generated using KiCad 9.0.7. The generated files define the copper circuitry, solder mask openings, silkscreen markings, and PCB outline required for manufacturing a two-layer printed circuit board. Collectively, these Gerber files represent the finalized graphical fabrication data and serve as the standard input for PCB manufacturing processes. 
