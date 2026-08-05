@@ -386,5 +386,4 @@ This PCB can be used for:
 | Project | ✅ Finalized |
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
  
