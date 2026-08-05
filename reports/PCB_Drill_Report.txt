@@ -1,1 +1,147 @@
 
+USB-to-UART Converter PCB
+Drill Files Report
+PCB Hole Fabrication Documentation
+
+Project Title: USB-to-UART Converter PCB
+
+Software Used: KiCad PCB Editor 9.0.7
+
+Report Scope: PCB Drill Files Only
+
+1. Introduction
+
+This report documents the drill files generated for the USB-to-UART Converter PCB. Drill files define the locations, diameters, and types of holes required during PCB fabrication. These files are used by CNC drilling machines to produce plated and non-plated holes before the board proceeds to subsequent manufacturing stages.
+
+The report is limited to the drill output generated from the completed PCB layout.
+
+2. Drill File Generation
+
+The drill data was generated using KiCad PCB Editor.
+
+Parameter	Description
+Software	KiCad PCB Editor
+Version	9.0.7
+Output Format	Excellon Drill Format
+Units	Millimeter
+Coordinate Type	Absolute Coordinates
+
+The generated drill files contain all drilling information required for fabrication.
+
+3. Generated Drill Files
+
+The following drill files were produced.
+
+File	Description
+USB_to_UART-PTH.drl	Plated Through Hole Drill File
+USB_to_UART-NPTH.drl	Non-Plated Through Hole Drill File
+4. Plated Through Hole (PTH) Drill File
+File
+USB_to_UART-PTH.drl
+Purpose
+
+The plated drill file contains all holes that are electrically connected to the PCB circuitry. During fabrication, these holes are metallized to establish electrical continuity between the top and bottom copper layers.
+
+Typical Applications
+Signal vias
+Power vias
+Through-hole component leads
+Pin headers
+Connectors
+5. Drill Tools Used (PTH)
+
+The plated drill file defines three drill tool sizes.
+
+Tool	Drill Diameter	Typical Application
+T1	0.30 mm	Signal vias
+T2	0.60 mm	Through-hole component leads
+T3	1.00 mm	Pin headers and connectors
+Design Considerations
+Small drill diameter used for compact signal vias.
+Medium drill diameter used for standard through-hole components.
+Larger drill diameter allocated for connector and header pins.
+6. Non-Plated Through Hole (NPTH) Drill File
+File
+USB_to_UART-NPTH.drl
+Purpose
+
+The NPTH drill file contains holes that are not electrically connected to the PCB. These holes remain unplated and are intended solely for mechanical purposes.
+
+Typical Applications
+Mechanical alignment holes
+Connector locating pins
+Mounting features
+Mechanical supports
+7. Drill Tools Used (NPTH)
+
+The non-plated drill file defines one drill size.
+
+Tool	Drill Diameter	Typical Application
+T1	0.65 mm	Mechanical locating holes
+
+The generated file contains the required non-plated holes for the PCB design.
+
+8. Classification of PCB Holes
+
+PCB holes are categorized according to their intended function.
+
+Hole Type	Electrical Connection	Plating
+Signal Via	Yes	Plated
+Component Lead	Yes	Plated
+Connector Pin	Yes	Plated
+Mechanical Hole	No	Non-Plated
+9. Manufacturing Workflow
+
+The drill files are used during the CNC drilling stage of PCB fabrication.
+
+PCB Layout
+      │
+      ▼
+Generate Drill Files
+      │
+      ▼
+CNC Drill Programming
+      │
+      ▼
+Hole Drilling
+      │
+      ▼
+Copper Plating (PTH Only)
+      │
+      ▼
+Subsequent PCB Fabrication Processes
+10. Importance of Drill Files
+
+The drill files provide essential manufacturing information including:
+
+Hole coordinates
+Drill diameters
+Tool assignments
+Hole classification
+Plated and non-plated hole separation
+
+Accurate drill information is critical for ensuring proper component assembly, electrical connectivity, and mechanical integrity of the PCB.
+
+11. Drill File Summary
+
+The generated drill package includes:
+
+Plated through-hole drill data
+Non-plated drill data
+Multiple drill tool definitions
+Standard Excellon format output
+Metric coordinate system
+
+These files provide the complete drilling information required for manufacturing the USB-to-UART Converter PCB.
+
+12. File Organization
+
+The drill output may be organized as follows:
+
+Drill/
+
+USB_to_UART-PTH.drl
+USB_to_UART-NPTH.drl
+13. Conclusion
+
+The drill files for the USB-to-UART Converter PCB were successfully generated using KiCad PCB Editor 9.0.7. Separate drill files were created for plated through holes and non-plated holes, following standard PCB manufacturing practices. The drill package defines the required hole locations, diameters, and classifications necessary for CNC drilling and subsequent PCB fabrication, ensuring accurate mechanical and electrical implementation of the PCB design. 
